@@ -1,6 +1,6 @@
 [![Maven Central](https://img.shields.io/maven-central/v/app.screeb.sdk/android-sdk.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22app.screeb.sdk%22%20AND%20a:%22android-sdk%22)
 
-__:warning: Android SDK has been released in beta. Please send an email to michael@screeb.app to request a demo.__
+__:warning:  Android SDK has been released in beta. Please send an email to michael@screeb.app to request a demo.__
 
 ___
 
@@ -41,7 +41,7 @@ The Screeb sdk is configured to work with Android sdk version 17 minimum
 
 The size of the sdk is approximately 500 Kb
 
-The SDK needs the permissions `ACCESS_NETWORK_STATE` and `INTERNET` to work well
+The sdk needs the permissions `ACCESS_NETWORK_STATE` and `INTERNET` to work well
 
 ## Dependencies
 
