@@ -29,7 +29,7 @@ allprojects {
 Then add this dependency in your app `build.gradle` :
 
 ```groovy
-implementation 'app.screeb.sdk:android-sdk:0.2'
+implementation 'app.screeb.sdk:android-sdk:0.3'
 ```
 
 ## How to configure the Android SDK
@@ -63,3 +63,5 @@ We try to update the dependencies very frequently, if you have a any problem, pl
 - dagger:2.30.1
 - threetenabp:1.3.1
 - glide:4.12.0
+- emoji-material:0.7.0
+- emoji-twitter:0.7.0
