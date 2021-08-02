@@ -11,7 +11,8 @@ class DemoApplication : Application() {
 
         screeb = Screeb.Builder()
                 .withContext(this)
-                .withChannelId("<your-channel-id>")
+                // Set your channel id here
+                .withChannelId("082b7590-1621-4f72-8030-731a98cd1448")
                 // Optional settings :
                 /*
                 .withVisitorId("<user-id>")

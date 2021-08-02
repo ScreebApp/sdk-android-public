@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">AndroidDemoApp</string>
+    <string name="app_name">Screeb demo app</string>
+    <string name="set_identity">SET IDENTITY</string>
+    <string name="set_visitor_properties">SET VISITOR PROPERTIES</string>
+    <string name="track_event">TRACK EVENT</string>
+    <string name="track_screen">TRACK SCREEN</string>
 </resources>

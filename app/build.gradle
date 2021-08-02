@@ -20,7 +20,7 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -35,7 +35,7 @@ android {
 
 dependencies {
     // Insert this line to install Screeb sdk dependency :
-    implementation 'app.screeb.sdk:android-sdk:0.4'
+    implementation 'app.screeb.sdk:android-sdk:0.5'
 
     implementation "androidx.multidex:multidex:2.0.1"
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
