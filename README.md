@@ -52,7 +52,7 @@ We try to update the dependencies very frequently, if you have a any problem, pl
 - core-ktx:1.6.0
 - appcompat:1.3.1
 - material:1.4.0
-- constraintlayout:2.0.4
+- constraintlayout:2.1.0
 - room-runtime:2.3.0
 - retrofit:2.9.0
 - converter-moshi:2.9.0
