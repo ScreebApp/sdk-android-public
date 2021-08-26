@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
                     this["age"] = 32
                     this["company"] = "<My company>"
                     this["logged_at"] = Date()
+                    this["technology"] = "kotlin"
                     // Add you own properties
                 })
         }

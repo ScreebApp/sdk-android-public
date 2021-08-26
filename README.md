@@ -65,3 +65,8 @@ We try to update the dependencies very frequently, if you have a any problem, pl
 - glide:4.12.0
 - emoji-material:0.7.0
 - emoji-twitter:0.7.0
+
+
+## Troubleshooting
+
+In case of problem, feel free to contact us or create an issue in this repository.
