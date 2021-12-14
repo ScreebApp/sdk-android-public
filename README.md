@@ -29,7 +29,7 @@ allprojects {
 Then add this dependency in your app `build.gradle` :
 
 ```groovy
-implementation 'app.screeb.sdk:android-sdk:1.0'
+implementation 'app.screeb.sdk:android-sdk:1.1.0'
 ```
 
 ## How to configure the Android SDK
