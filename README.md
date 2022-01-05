@@ -29,7 +29,7 @@ allprojects {
 Then add this dependency in your app `build.gradle` :
 
 ```groovy
-implementation 'app.screeb.sdk:android-sdk:1.1.0'
+implementation 'app.screeb.sdk:android-sdk:1.2.0'
 ```
 
 ## How to configure the Android SDK
@@ -47,18 +47,18 @@ The sdk needs the permissions `ACCESS_NETWORK_STATE` and `INTERNET` to work well
 
 We try to update the dependencies very frequently, if you have a any problem, please create an issue in this repository.
 
-- kotlin-stdlib:1.5.21
+- kotlin-stdlib:1.6.0
 - kotlinx-coroutines-android:1.5.1
-- core-ktx:1.6.0
-- appcompat:1.3.1
+- core-ktx:1.7.0
+- appcompat:1.4.0
 - material:1.4.0
-- constraintlayout:2.1.0
-- room-runtime:2.3.0
+- constraintlayout:2.1.2
+- room-runtime:2.4.0
 - retrofit:2.9.0
 - converter-moshi:2.9.0
 - logging-interceptor:4.9.1
 - conscrypt-android:2.2.1
-- lifecycle-runtime-ktx:2.3.1
+- lifecycle-runtime-ktx:2.4.0
 - lifecycle-extensions:2.2.0
 - dagger:2.30.1
 - threetenabp:1.3.1
