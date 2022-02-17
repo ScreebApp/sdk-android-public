@@ -20,7 +20,17 @@ class MainActivity : AppCompatActivity() {
 
     private fun configureSetIdentityButton() {
         findViewById<Button>(R.id.setIdentityButton).setOnClickListener {
-            screeb.setIdentity("<new-user-id>")
+            screeb.setIdentity(
+                "<new-user-id>",
+                VisitorProperties().apply {
+                    this["email"] = "<user-email>"
+                    this["age"] = 32
+                    this["company"] = "<My company>"
+                    this["logged_at"] = Date()
+                    this["technology"] = "kotlin"
+                    // Add you own properties
+                }
+            )
         }
     }
 
