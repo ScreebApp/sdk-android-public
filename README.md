@@ -29,7 +29,7 @@ allprojects {
 Then add this dependency in your app `build.gradle` :
 
 ```groovy
-implementation 'app.screeb.sdk:survey:1.7.2'
+implementation 'app.screeb.sdk:survey:1.8.0'
 ```
 
 ## How to configure the Android SDK
@@ -37,7 +37,7 @@ implementation 'app.screeb.sdk:survey:1.7.2'
 
 ## Technical requirements
 
-The Screeb sdk is configured to work with Android sdk version 17 minimum
+The Screeb sdk is configured to work with Android sdk version 21 minimum
 
 The size of the sdk is approximately 500 Kb
 
@@ -47,25 +47,26 @@ The sdk needs the permissions `ACCESS_NETWORK_STATE` and `INTERNET` to work well
 
 We try to update the dependencies very frequently, if you have a any problem, please create an issue in this repository.
 
-- kotlin-stdlib:1.6.0
+- kotlin-stdlib:1.6.20
 - kotlinx-coroutines-android:1.5.2
-- core-ktx:1.7.0
-- appcompat:1.4.1
-- material:1.5.0
-- constraintlayout:2.1.3
+- core-ktx:1.8.0
+- appcompat:1.4.2
+- material:1.6.1
+- constraintlayout:2.1.4
 - room-runtime:2.4.2
 - retrofit:2.9.0
 - moshi:1.13.0
 - converter-moshi:2.9.0
-- logging-interceptor:4.9.1
+- okhttp:4.9.3
+- logging-interceptor:4.9.3
 - conscrypt-android:2.2.1
 - lifecycle-runtime-ktx:2.4.1
 - lifecycle-extensions:2.2.0
 - dagger:2.30.1
 - threetenabp:1.3.1
 - glide:4.12.0
-- emoji-material:0.7.0
-- emoji-twitter:0.7.0
+- emoji-material:0.15.0
+- emoji-twitter:0.15.0
 - com.google.android.play:core:1.10.3
 - com.google.android.play:core-ktx:1.8.1"
 
