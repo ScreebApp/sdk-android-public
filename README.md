@@ -43,6 +43,11 @@ The size of the sdk is approximately 500 Kb
 
 The sdk needs the permissions `ACCESS_NETWORK_STATE` and `INTERNET` to work well
 
+```xml
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+```
+
 ## Dependencies
 
 We try to update the dependencies very frequently, if you have a any problem, please create an issue in this repository.
