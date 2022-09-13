@@ -1,7 +1,5 @@
 [![Maven Central](https://img.shields.io/maven-central/v/app.screeb.sdk/survey.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22app.screeb.sdk%22%20AND%20a:%22survey%22)
 
-__:warning:  Android SDK has been released in beta. Please contact us [here](https://screeb.app/get-a-demo-of-screeb/) to request a demo.__
-
 ___
 
 ## Android demo app for the Screeb SDK
