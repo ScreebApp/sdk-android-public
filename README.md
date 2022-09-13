@@ -29,7 +29,7 @@ allprojects {
 Then add this dependency in your app `build.gradle` :
 
 ```groovy
-implementation 'app.screeb.sdk:survey:1.9.2'
+implementation 'app.screeb.sdk:survey:1.10.0'
 ```
 
 ## How to configure the Android SDK
