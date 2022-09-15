@@ -3,7 +3,7 @@ package app.screeb.androiddemoapp
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import app.screeb.androiddemoapp.application.DemoApplication.Companion.screeb
+import app.screeb.sdk.Screeb
 import app.screeb.sdk.init.model.VisitorProperties
 import app.screeb.sdk.tracking.model.TrackingEventProperties
 import java.util.*
@@ -20,12 +20,12 @@ class MainActivity : AppCompatActivity() {
 
     private fun configureSetIdentityButton() {
         findViewById<Button>(R.id.setIdentityButton).setOnClickListener {
-            screeb.setIdentity(
-                "<new-user-id>",
+            Screeb.setIdentity(
+                "123456789",
                 VisitorProperties().apply {
-                    this["email"] = "<user-email>"
-                    this["age"] = 32
-                    this["company"] = "<My company>"
+                    this["email"] = "samuel@screeb.app"
+                    this["age"] = 42
+                    this["company"] = "Screeb"
                     this["logged_at"] = Date()
                     this["technology"] = "kotlin"
                     // Add you own properties
@@ -36,11 +36,11 @@ class MainActivity : AppCompatActivity() {
 
     private fun configureSetVisitorPropertiesButton() {
         findViewById<Button>(R.id.setVisitorPropertiesButton).setOnClickListener {
-            screeb.setVisitorProperties(
+            Screeb.setVisitorProperties(
                 VisitorProperties().apply {
-                    this["email"] = "<user-email>"
-                    this["age"] = 32
-                    this["company"] = "<My company>"
+                    this["email"] = "samuel@screeb.app"
+                    this["age"] = 42
+                    this["company"] = "Screeb"
                     this["logged_at"] = Date()
                     this["technology"] = "kotlin"
                     // Add you own properties
@@ -51,10 +51,10 @@ class MainActivity : AppCompatActivity() {
     private fun configureTrackEventButton() {
         findViewById<Button>(R.id.trackEventButton).setOnClickListener {
             // Simple event tracking
-            screeb.trackEvent("Product removed from cart")
+            Screeb.trackEvent("Product removed from cart")
 
             // Event with properties
-            screeb.trackEvent("Product added to cart", TrackingEventProperties().apply {
+            Screeb.trackEvent("Product added to cart", TrackingEventProperties().apply {
                 this["product_name"] = "Red bike 2021"
                 this["category"] = "sport"
                 this["price"] = 457.30
@@ -69,10 +69,10 @@ class MainActivity : AppCompatActivity() {
     private fun configureTrackScreenButton() {
         findViewById<Button>(R.id.trackScreenButton).setOnClickListener {
             // Simple screen tracking
-            screeb.trackScreen("ProductCartFragment")
+            Screeb.trackScreen("ProductCartFragment")
 
             // Screen with properties
-            screeb.trackScreen("FaqFragment", TrackingEventProperties().apply {
+            Screeb.trackScreen("FaqFragment", TrackingEventProperties().apply {
                 this["product_name"] = "Red bike 2021"
                 this["category"] = "sport"
                 this["price"] = 457.30
