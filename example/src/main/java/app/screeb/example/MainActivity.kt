@@ -1,4 +1,4 @@
-package app.screeb.androiddemoapp
+package app.screeb.example
 
 import android.os.Bundle
 import android.widget.Button

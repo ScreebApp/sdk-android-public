@@ -9,7 +9,7 @@ This app contains all necessary installation and configuration you need to start
 You'll find :
 
 - Install examples in the build.gradle files.
-- Initial configuration in `DemoApplication.kt`
+- Initial configuration in `ExampleApplication.kt`
 - Additional commands in `MainActivity.kt`
 
 ## How to install the Android SDK in your app ?

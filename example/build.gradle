@@ -8,7 +8,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "app.screeb.androiddemoapp"
+        applicationId "app.screeb.example"
         minSdkVersion 21
         targetSdkVersion 31
         versionCode 15
@@ -35,7 +35,7 @@ android {
 
 dependencies {
     // Insert this line to install Screeb sdk dependency :
-    implementation 'app.screeb.sdk:survey:1.10.0'
+    implementation 'app.screeb.sdk:survey:1.10.1'
 
     implementation "androidx.multidex:multidex:2.0.1"
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
