@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 33
     buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "app.screeb.example"
         minSdkVersion 21
-        targetSdkVersion 31
+        targetSdkVersion 33
         versionCode 15
         versionName "1.5.0"
         multiDexEnabled true
@@ -35,7 +35,7 @@ android {
 
 dependencies {
     // Insert this line to install Screeb sdk dependency :
-    implementation 'app.screeb.sdk:survey:1.13.3'
+    implementation 'app.screeb.sdk:survey:1.13.4'
 
     implementation "androidx.multidex:multidex:2.0.1"
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
