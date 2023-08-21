@@ -35,7 +35,7 @@ android {
 
 dependencies {
     // Insert this line to install Screeb sdk dependency :
-    implementation 'app.screeb.sdk:survey:2.0.3'
+    implementation 'app.screeb.sdk:survey:2.0.5'
 
     implementation "androidx.multidex:multidex:2.0.1"
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
